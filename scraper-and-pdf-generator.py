@@ -17,6 +17,8 @@ MARGIN = 40  # marge autour du contenu
 MAX_PAGE_HEIGHT = 5000  # sécurité (évite de capturer des pages trop énormes)
 # ==============================
 
+Image.init()
+
 options = Options()
 options.binary_location = "/usr/bin/chromium"
 options.add_argument("--headless=new")
